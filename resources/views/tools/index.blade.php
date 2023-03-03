@@ -8,11 +8,8 @@
                     @include('includes.card')
                 @endforeach
             </div>
-            <div>
-                <a href="{{ route('tools.create') }}">Create tool</a>
-            </div>
-            <div>
-                {{-- <a href="{{ route('tools.create') }}" class="btn btn-primary mt-3">Add Tool</a> --}}
+            <div class="text-center">
+                <a class="btn btn-primary" href="{{ route('tools.create') }}">Create tool</a>
             </div>
         </div>
     </main>

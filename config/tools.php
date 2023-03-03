@@ -2,7 +2,7 @@
 return [
     [
         'name' => 'Visual Studio Code',
-        'image_url' => 'https://via.placeholder.com/150',
+        'image_url' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png',
         'description' => 'Editor di codice open source',
         'category' => 'Editor di codice',
         'release_year' => 2015,
@@ -13,7 +13,7 @@ return [
     ],
     [
         'name' => 'Adobe Photoshop',
-        'image_url' => 'https://via.placeholder.com/150',
+        'image_url' => 'https://loghi-famosi.com/wp-content/uploads/2021/01/Adobe-Photoshop-Logo.png',
         'description' => 'Software di fotoritocco',
         'category' => 'Grafica',
         'release_year' => 1990,
@@ -24,7 +24,7 @@ return [
     ],
     [
         'name' => 'Google Chrome',
-        'image_url' => 'https://via.placeholder.com/150',
+        'image_url' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Google_Chrome_icon_(September_2014).svg/150px-Google_Chrome_icon_(September_2014).svg.png',
         'description' => 'Browser web sviluppato da Google',
         'category' => 'Browser web',
         'release_year' => 2008,
@@ -35,7 +35,7 @@ return [
     ],
     [
         'name' => 'GitHub',
-        'image_url' => 'https://via.placeholder.com/150',
+        'image_url' => 'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png',
         'description' => 'Piattaforma di sviluppo collaborativo di software',
         'category' => 'Collaborazione',
         'release_year' => 2008,
@@ -46,7 +46,7 @@ return [
     ],
     [
         'name' => 'MySQL',
-        'image_url' => 'https://via.placeholder.com/150',
+        'image_url' => 'https://www.vectorlogo.zone/logos/mysql/mysql-ar21.png',
         'description' => 'Sistema di gestione di database relazionali',
         'category' => 'Database',
         'release_year' => 1995,
@@ -57,7 +57,7 @@ return [
     ],
     [
         'name' => 'Node.js',
-        'image_url' => 'https://via.placeholder.com/150',
+        'image_url' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Node.js_logo_2015.svg/2560px-Node.js_logo_2015.svg.png',
         'description' => 'Runtime di JavaScript basato su Chrome V8',
         'category' => 'Runtime di JavaScript',
         'release_year' => 2009,
@@ -68,7 +68,7 @@ return [
     ],
     [
         'name' => 'Sublime Text',
-        'image_url' => 'https://via.placeholder.com/150',
+        'image_url' => 'https://www.schemecolor.com/wp-content/uploads/sublime-text-logo.png',
         'description' => 'Editor di codice leggero e veloce',
         'category' => 'Editor di codice',
         'release_year' => 2008,
@@ -79,7 +79,7 @@ return [
     ],
     [
         'name' => 'Notepad++',
-        'image_url' => 'https://via.placeholder.com/150',
+        'image_url' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Notepad%2B%2B_Logo.svg/2367px-Notepad%2B%2B_Logo.svg.png',
         'description' => 'Editor di codice open source per Windows',
         'category' => 'Editor di codice',
         'release_year' => 2003,
@@ -90,7 +90,7 @@ return [
     ],
     [
         'name' => 'Postman',
-        'image_url' => 'https://via.placeholder.com/150',
+        'image_url' => 'https://blog.postman.com/wp-content/uploads/2014/07/logo.png',
         'description' => 'Client RESTful API',
         'category' => 'API',
         'release_year' => 2012,
@@ -101,7 +101,7 @@ return [
     ],
     [
         'name' => 'MongoDB',
-        'image_url' => 'https://via.placeholder.com/150',
+        'image_url' => 'https://cyclr.com/wp-content/uploads/2022/03/ext-553.png',
         'description' => 'Database non relazionale basato su documenti',
         'category' => 'Database',
         'release_year' => 2009,
@@ -112,7 +112,7 @@ return [
     ],
     [
         'name' => 'Atom',
-        'image_url' => 'https://via.placeholder.com/150',
+        'image_url' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Atom_editor_logo.svg/1024px-Atom_editor_logo.svg.png',
         'description' => 'Editor di codice open source',
         'category' => 'Editor di codice',
         'release_year' => 2014,
@@ -123,7 +123,7 @@ return [
     ],
     [
         'name' => 'React',
-        'image_url' => 'https://via.placeholder.com/150',
+        'image_url' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1024px-React-icon.svg.png',
         'description' => 'Libreria JavaScript per lo sviluppo di interfacce utente',
         'category' => 'Libreria JavaScript',
         'release_year' => 2013,
