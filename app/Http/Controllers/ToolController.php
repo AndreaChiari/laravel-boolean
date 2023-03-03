@@ -21,7 +21,9 @@ class ToolController extends Controller
      */
     public function create()
     {
-        return view('tools.create');
+        $tool = new Tool();
+
+        return view('tools.create', compact('tool'));
     }
 
     /**
