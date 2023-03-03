@@ -3,15 +3,17 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Tool;
 
-class tool extends Controller
+class ToolController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
     public function index()
     {
-        //
+        $tools = Tool::all();
+        return view('tools.index', compact('tools'));
     }
 
     /**
@@ -19,7 +21,7 @@ class tool extends Controller
      */
     public function create()
     {
-        //
+        return view('tools.create');
     }
 
     /**
@@ -27,7 +29,13 @@ class tool extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $data = $request->all();
+
+        $tool = new Tool();
+        $tool->fill($data);
+        $tool->save();
+
+        return to_route('tools.show', $tool->id);
     }
 
     /**
@@ -35,7 +43,8 @@ class tool extends Controller
      */
     public function show(string $id)
     {
-        //
+        $tool = Tool::findOrFail($id);
+        return view('tools.show', compact('tool'));
     }
 
     /**

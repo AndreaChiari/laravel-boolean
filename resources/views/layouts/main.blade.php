@@ -12,5 +12,8 @@
 </head>
 <body>   
     @include('includes.header')
+    <main>
+        @yield('content')
+    </main>
 </body>
 </html>
