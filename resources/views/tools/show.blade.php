@@ -22,15 +22,15 @@
                     </div>
                 </div>
             </div>
-            {{-- <div class="card-footer bg-white d-flex justify-content-end">
-            <form action="{{ route('teams.destroy', $tool->id) }}" method="POST" class="delete-form"
-              data-name="{{ $tool->short_name }}">
-              @csrf
-              @method('DELETE')
-              <button type="submit" class="btn btn-danger me-2">Elimina</button>
-            </form>
-            <a href="{{ route('teams.index') }}" class="btn btn-secondary">Indietro</a> --}}
-        </div>
+            <div class="card-footer bg-white d-flex justify-content-end">
+                <form action="{{ route('tools.destroy', $tool->id) }}" method="POST" class="delete-form"
+                    data-name="{{ $tool->short_name }}">
+                    @csrf
+                    @method('DELETE')
+                    <button type="submit" class="btn btn-danger me-2">Elimina</button>
+                </form>
+                <a href="{{ route('tools.index') }}" class="btn btn-secondary">Indietro</a>
+            </div>
         </div>
     </main>
 @endsection

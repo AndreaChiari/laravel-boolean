@@ -70,6 +70,8 @@ class ToolController extends Controller
      */
     public function destroy(string $id)
     {
-        //
+        Tool::destroy($id);
+
+        return to_route('tools.index')->with('delete', 'tool eliminato con successo');
     }
 }
