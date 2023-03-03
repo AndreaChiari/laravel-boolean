@@ -6,6 +6,7 @@
             <div class="card-header text-center bg-white mb-3">
                 <h1>{{ $tool->name }}</h1>
             </div>
+            <a href="{{ route('tools.edit', $tool->id) }}" class="btn btn-warning me-2">Modifica</a>
             <div class="card-body">
                 <div class="row">
                     <div class="col">
@@ -18,7 +19,6 @@
                         <div>{{ $tool->download_link }}</div>
                         <div>{{ $tool->supported_os }}</div>
                         <div>{{ $tool->vote }}</div>
-
                     </div>
                 </div>
             </div>
@@ -29,7 +29,6 @@
               @method('DELETE')
               <button type="submit" class="btn btn-danger me-2">Elimina</button>
             </form>
-            <a href="{{ route('teams.edit', $tool->id) }}" class="btn btn-warning me-2">Modifica</a>
             <a href="{{ route('teams.index') }}" class="btn btn-secondary">Indietro</a> --}}
         </div>
         </div>

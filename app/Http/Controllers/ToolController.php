@@ -50,17 +50,19 @@ class ToolController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(string $id)
+    public function edit(Tool $tool)
     {
-        //
+        return view('tools.edit', compact('tool'));
     }
 
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, string $id)
+    public function update(Request $request, Tool $tool)
     {
-        //
+        $data = $request->all();
+        $tool->update($data);
+        return to_route('tools.show', $tool->id);
     }
 
     /**
